@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.container {
+    @apply w-[720px] mx-auto border-2 border-gray-500 mt-10 p-10 rounded-lg bg-gray-100 shadow-2xl
+}
+
+.customInput {
+    @apply border mt-2 border-[#b6b6b6] w-full py-2 px-4 rounded-xl placeholder:text-[#525252] font-normal
+}
+
+label {
+    @apply text-sm font-medium
+}
+
+.customTextarea {
+    @apply  rounded py-2.5 mt-2 h-[100px] px-4 outline-none border border-zinc-400 text-sm focus:border-black resize-none w-full
+}
+
+.cloneInput {
+    @apply border mt-2 border-[#b6b6b6] w-[90%] py-2 px-4 rounded-xl placeholder:text-[#525252] font-normal
+}
+
+.customLabel {
+    @apply py-2 px-4 border border-zinc-400 mr-4 rounded-full cursor-pointer relative
+}
