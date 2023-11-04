@@ -77,9 +77,9 @@ export default function Skill({ values }) {
               className="mr-2"
               type="checkbox"
               name="checkedLang"
-              value="England"
+              value="English"
             />
-            England
+            English
           </label>
           <label className="customLabel">
             <Field
@@ -89,6 +89,15 @@ export default function Skill({ values }) {
               value="German"
             />
             German
+          </label>
+          <label className="customLabel">
+            <Field
+              className="mr-2"
+              type="checkbox"
+              name="checkedLang"
+              value="French"
+            />
+            French
           </label>
         </div>
       </div>
